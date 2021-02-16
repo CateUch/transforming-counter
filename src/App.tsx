@@ -51,20 +51,23 @@ function App() {
     setSetIsActive(true)
   }
 
-    return (
-      <div className={style.app}>
-    { (setIsActive === true) &&   <CounterSetting    onmaxValue={onmaxValue}
-                                                 onstartValue={onstartValue}
-                                                  onSetValues={onSetValues} />
-  }
-   { (setIsActive === false) &&
+  return (
+    <div className={style.app}>
+      { (setIsActive === true) &&
+        <CounterSetting onmaxValue={onmaxValue}
+          onstartValue={onstartValue}
+          onSetValues={onSetValues}
+        />
+      }
+      { (setIsActive === false) &&
 
-      <CounterDisplay text={text}
-        backToSet={backToSet}
-        incButtonHandler={incButtonHandler}
-        recButtonHandler={recButtonHandler} />
-  } 
-  </div>
+        <CounterDisplay text={text}
+          backToSet={backToSet}
+          incButtonHandler={incButtonHandler}
+          recButtonHandler={recButtonHandler}
+        />
+      }
+    </div>
   )
 }
 
