@@ -17,7 +17,7 @@ function Input(props: PropsInputType) {
     return (
         <label>
             {title}
-            <input className={error ? style.error_Input : ''}
+            <input className={error ? style.errorInput : style.input}
                 type='number'
                 value={value}
                 onChange={onChange} />

@@ -16,7 +16,7 @@ export default function CounterDisplay(props: PropsType) {
   return (
     <>
       <div className={style.counterWrapper} >
-        <div className={(value === counterMaxValue) ? style.displayAttention : style.counterDisplay}>
+        <div className={(value === counterMaxValue) ? style.counterDisplayError : style.counterDisplay}>
           {counterIsActive ? value : text}
         </div>
         <div className={style.counterBottom}>

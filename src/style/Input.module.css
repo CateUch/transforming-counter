@@ -1,4 +1,16 @@
-.error_Input{
+.errorInput {
+    width: 147px;
+    height: auto;
+    color: red;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bolder;
+    box-sizing: border-box;
     border: 2px solid red;
-   color: red;
-   }
+}
+
+.input {
+    border-radius: 2px;
+    text-align: center;
+    border: 2px solid transparent;
+}

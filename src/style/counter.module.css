@@ -1,54 +1,60 @@
-.counterWrapper {
-    width: 300px;
-    height: auto;
-    box-sizing: border-box;
-    border: 2px solid black;
-    margin: auto;
-    margin-top: 50vh;
-}
- 
-.counterDisplay {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 250px;
-    height: 150px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    background-color: gray;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-.displayAttention {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 250px;
-    height: 150px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    background-color: gray;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 25px;
-    color: rgb(98, 5, 5);
-}
+    .counterWrapper {
+        margin: auto;
+        width: 300px;
+        height: auto;
+        border-radius: 5%;
+        box-sizing: border-box;
+        border: 2px solid black;
+        box-shadow: 2px 2px 5px gray;
+        background-color: whitesmoke;
+    }
 
-.error_Input{
- border: 2px solid red;
-color: red;
-}
-.counterBottom {
-    width: 250px;
-    height: 50px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    background-color: rgb(130, 154, 44);
-    margin: auto;
-    margin-bottom: 10px;
-    text-align: center;
-}
+    .counterDisplay {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 250px;
+        height: 150px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        background-color: rgba(178, 170, 194, 0.748);
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    .counterDisplayError {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 250px;
+        height: 150px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        background-color: rgba(178, 170, 194, 0.748);
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #000;
+        font-size: x-large;
+        font-weight: bold;
+        font-style: oblique;
+        text-shadow: 2px 2px 4px rgb(255, 38, 38), 2px 2px #fff;
+    }
+
+    .counterBottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 50px;
+        margin: auto;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        background-color: rgb(130, 154, 44);
+       }
